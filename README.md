@@ -25,6 +25,3 @@ WorkPulse es una API diseñada para mejorar el rendimiento laboral de los desarr
 - **Mejora de la Productividad**: Los equipos pueden identificar y abordar cuellos de botella en su flujo de trabajo.
 - **Aumento de la Satisfacción Laboral**: Al centrarse en el bienestar, las empresas pueden aumentar la retención de talento.
 - **Datos Basados en Hechos**: Las decisiones se toman basadas en datos concretos, lo que reduce la incertidumbre y aumenta la eficacia.
-
-## Conclusión
-WorkPulse es una solución integral que combina métricas de rendimiento, herramientas de bienestar y análisis predictivo para ayudar a las empresas de desarrollo de software a alcanzar su máximo potencial. Con esta API, los equipos no solo mejoran su productividad, sino que también cultivan un ambiente de trabajo más saludable y equilibrado.

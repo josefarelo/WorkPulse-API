@@ -1,15 +1,15 @@
-namespace WorkPulseAPI.Models
+using System;
+
+namespace YourNamespace.Models
 {
     public class User
     {
-        public int Id { get; set; }
-        public required string Username { get; set; }
-        public required string Email { get; set; }
-        public required string PasswordHash { get; set; }
-        public required string Role { get; set; }
-    
-        // Propiedades para el manejo del refresh token
-        public required string RefreshToken { get; set; }
-        public DateTime RefreshTokenExpiration { get; set; }
+        public int Id { get; set; } // ID único para el usuario
+        public string Username { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string PasswordHash { get; set; } = string.Empty;
+        public string Role { get; set; } = "User"; // Valor predeterminado es "User"
+        public string RefreshToken { get; set; } = string.Empty;
+        public DateTime RefreshTokenExpiration { get; set; } = DateTime.UtcNow;
     }
 }
